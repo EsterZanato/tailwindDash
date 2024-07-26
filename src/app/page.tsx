@@ -8,7 +8,7 @@ export default function Home() {
         <SettingsTabs />
 
         <div className='mt-6 flex flex-col'>
-          <div className='flex items-center justify-between'>
+          <div className='flex items-center justify-between pb-5 border-b border-zinc-200'>
             <div className='space-y-1'>
               <h2 className='text-lg font-medium text-zinc-900'>
                 Personal info
@@ -29,7 +29,9 @@ export default function Home() {
             </div>
           </div>
 
-          <form id='settings' className='mt-6 flex flex-col w-full'></form>
+          <form id='settings' className='mt-6 flex flex-col w-full gap-5'>
+            <div className='grid gap-3 grid-cols-form'></div>
+          </form>
         </div>
     </>
   )
